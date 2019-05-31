@@ -1,11 +1,43 @@
-/*!
- * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
- * Copyright 2013-2019 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
- */
+
+
 body {
-  padding-top: 56px;
+  padding-top: 60px;
+  background-color: #EAEAEA;
 }
+
+
+.breadcrumb {
+  background-color: #35454a;
+}
+  
+.breadcrumb a {
+  color: #fff;
+  text-decoration: none;
+}  
+  
+/*------------------------------------Navbar-------------------------*/
+.navbar {
+  background-color: #35454a;
+  color: #fff;
+}
+
+.navbar-brand {
+  color: #a9a9a9;
+  font-size: 25px;
+}
+
+.navbar a {
+  color: #fff;
+}
+
+.navbar a:hover {
+  color: #a9a9a9;
+}
+
+.navbar-toggler-icon {
+  color: #a9a9a9;
+}
+
 
 .carousel-item {
   height: 65vh;
@@ -17,37 +49,143 @@ body {
   background-size: cover;
 }
 
+.carousel-caption {
+  font-size: 25px;
+  color: #fff;
+}
+
 .portfolio-item {
   margin-bottom: 30px;
 }
 
 .page-title {
-  padding-top: 50px;
+  padding-top: 40px;
+  padding-bottom: 25px;
+  color: #35424a;
 }
 
 .project-title {
   padding-top: 50px;
   padding-bottom: 20px;
+  color: #35424a;
 }
 
 /*--------------Home page contact form----------------------*/
 
+.container-fluid {
+  padding: 0;
+
+}
+
 .container-contactform {
-    padding: 15px;
-    color: #fff;
-    background: #35424a;
-    margin: auto;
+
+  padding: 25px;
+  color: #fff;
+  background: #35424a;
+  margin: auto;
+}
+
+.container-contactform h1 {
+  margin: auto;
+}
+
+.container-contactform form {
+  margin: auto;
+
+}
+
+.container-contactform input[type=email] {
+  padding: 4px;
+  height: 28px;
+  width: 250px;
+}
+
+.button-1 {
+  height: 27px;
+  background: #a9a9a9;
+  border: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  color: #fff;
+}
+
+/*----------------------Project Cards------------------*/
+
+
+
+.card-title a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.card-title a:hover {
+  
+  color: #b3b3b3;
 }
 
 
-.container-contactform  form {
-    float: right;
-    margin-top: 15px;
-    margin-left: 30px;
+
+/*--------------------- About Page Styling -----------------*/
+
+ .about-title {
+   color: #35424a;
+ }
+
+.about-context {
+  color: #35424a;
 }
 
-.container-contactform  input[type=email] {
-    padding: 4px;
-    height: 25px;
-    width: 250px;
+.aboutlanding {
+  padding-bottom: 50px;
+}
+
+h2 {
+  color: #35424a;
+}
+
+.safetycard {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.clientcard {
+  padding-top: 15px;
+  padding-bottom: 50px;
+}
+
+.card-body {
+  background-color: #35424a;
+  color: #fff;
+}
+/*------------------------Services---------------------*/
+
+.card-header h4 {
+  font: #fff;
+}
+
+
+
+/*-----------------------------Media Queries---------------*/
+
+@media(max-width: 768px) {
+
+  .container-contactform h1 .container-contactform form {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+
+
+  .container-contactform button-1
+    {
+    display: block;
+    width: 100%;
+  ;
+  }
+  .container-contactform form input[type="email"] {
+    width: 100%;
+    margin-bottom: 5px;
+    margin-top: 8px;
+  }
 }
