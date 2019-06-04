@@ -14,6 +14,12 @@ body {
   color: #fff;
   text-decoration: none;
 }  
+
+h1 {
+  color: #35424a;
+}
+
+
   
 /*------------------------------------Navbar-------------------------*/
 .navbar {
@@ -34,9 +40,7 @@ body {
   color: #a9a9a9;
 }
 
-.navbar-toggler-icon {
-  color: #a9a9a9;
-}
+
 
 
 .carousel-item {
@@ -128,9 +132,7 @@ body {
 
 /*--------------------- About Page Styling -----------------*/
 
- .about-title {
-   color: #35424a;
- }
+
 
 .about-context {
   color: #35424a;
@@ -164,6 +166,20 @@ h2 {
   font: #fff;
 }
 
+
+/*-------------------------Contact Page-------------*/
+
+
+/*------------------------footer------------------------*/
+
+footer {
+  text-align: center;
+}
+
+i {
+  color: #fff;
+ 
+}
 
 
 /*-----------------------------Media Queries---------------*/
