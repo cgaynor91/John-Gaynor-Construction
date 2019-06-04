@@ -13,18 +13,22 @@ body {
 .breadcrumb a {
   color: #fff;
   text-decoration: none;
-}  
+} 
+
+
+
 
 h1 {
   color: #35424a;
 }
 
 
+
   
 /*------------------------------------Navbar-------------------------*/
 .navbar {
   background-color: #35454a;
-  color: #fff;
+  
 }
 
 .navbar-brand {
@@ -32,16 +36,19 @@ h1 {
   font-size: 25px;
 }
 
-.navbar a {
-  color: #fff;
-}
 
 .navbar a:hover {
   color: #a9a9a9;
 }
 
 
+.dropdown a {
+  color: #35424a;
 
+}
+
+
+/*-----------------------Carousel------------------------------------*/
 
 .carousel-item {
   height: 65vh;
@@ -89,8 +96,9 @@ h1 {
   margin: auto;
 }
 
-.container-contactform h1 {
+.container-contactform h2 {
   margin: auto;
+
 }
 
 .container-contactform form {
@@ -114,6 +122,10 @@ h1 {
   color: #fff;
 }
 
+.index-form {
+  color: #fff;
+}
+
 /*----------------------Project Cards------------------*/
 
 
@@ -134,15 +146,11 @@ h1 {
 
 
 
-.about-context {
-  color: #35424a;
-}
-
 .aboutlanding {
   padding-bottom: 50px;
 }
 
-h2 {
+.about-context {
   color: #35424a;
 }
 
@@ -170,7 +178,7 @@ h2 {
 /*-------------------------Contact Page-------------*/
 
 
-/*------------------------footer------------------------*/
+/*------------------------Footer------------------------*/
 
 footer {
   text-align: center;
