@@ -62,6 +62,10 @@ h1 {
 .carousel-caption {
   font-size: 25px;
   color: #fff;
+  background: rgba(0,0,0,0.3);
+  border-radius: 10px;
+  width: 50%;
+  margin: auto;
 }
 
 .portfolio-item {
