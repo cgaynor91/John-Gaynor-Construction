@@ -23,7 +23,7 @@ h1 {
 
 
 
-/*------------------------------------Navbar-------------------------*/
+/*--Navbar--*/
 
 .navbar {
   background-color: #35454a;
@@ -42,12 +42,12 @@ h1 {
 
 
 .dropdown a {
-  color: #35424a;
+  color: #35454a;
 
 }
 
 
-/*-----------------------Carousel------------------------------------*/
+/*--Carousel--*/
 
 .carousel-item {
   height: 65vh;
@@ -71,16 +71,16 @@ h1 {
 .page-title {
   padding-top: 40px;
   padding-bottom: 25px;
-  color: #35424a;
+  color: #35454a;
 }
 
 .project-title {
   padding-top: 50px;
   padding-bottom: 20px;
-  color: #35424a;
+  color: #35454a;
 }
 
-/*--------------Home page contact form----------------------*/
+/*-Home page contact form--*/
 
 .container-fluid {
   padding: 0;
@@ -91,7 +91,7 @@ h1 {
 
   padding: 20px;
   color: #fff;
-  background: #35424a;
+  background: #35454a;
   margin: auto;
 }
 
@@ -121,11 +121,9 @@ h1 {
   color: #fff;
 }
 
-.index-form {
-  color: #fff;
-}
 
-/*----------------------Project Cards------------------*/
+
+/*---Project Cards--*/
 
 .card-title a {
   color: #a9a9a9;
@@ -140,7 +138,7 @@ h1 {
 
 
 
-/*--------------------- About Page Styling -----------------*/
+/*-- About Page Styling --*/
 
 .aboutlanding {
   padding-bottom: 50px;
@@ -165,24 +163,22 @@ h1 {
   color: #fff;
 }
 
-/*------------------------Services---------------------*/
+/*--Services--*/
 
 .card-header h4 {
   font: #fff;
 }
 
 
-/*-------------------------Contact Page-------------*/
+/*--Contact Page--*/
 
-.contact-page {
-  background: url("../buildsite.jpg") no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+
+.index-form {
+  color: #fff;
+  background-color: #35454a;
 }
 
-/*------------------------Footer------------------------*/
+/*--Footer--*/
 
 footer {
   background-color: #35424a;
@@ -209,7 +205,7 @@ i:hover {
   padding-left: 20px;
 }
 
-/*-----------------------------Media Queries---------------*/
+/*--Media Queries--*/
 
 @media(max-width: 768px) {
 
@@ -229,5 +225,9 @@ i:hover {
     width: 100%;
     margin-bottom: 5px;
     margin-top: 8px;
+  }
+  
+  .map {
+    width: 100%;
   }
 }
