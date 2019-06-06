@@ -1,7 +1,7 @@
 body {
   padding-top: 60px;
   background-color: #EAEAEA;
- overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 
@@ -21,7 +21,9 @@ h1 {
   color: #35424a;
 }
 
-
+.container-fluid {
+  padding: 0;
+}
 
 
 /*--Navbar--*/
@@ -37,7 +39,7 @@ h1 {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: #fff;
+  color: #fff;
 }
 
 .dropdown a {
@@ -60,7 +62,7 @@ h1 {
 .carousel-caption {
   font-size: 25px;
   color: #fff;
-  background: rgba(0,0,0,0.3);
+  background: rgba(0, 0, 0, 0.3);
   border-radius: 10px;
   width: 50%;
   margin: auto;
@@ -74,7 +76,7 @@ h1 {
   padding-top: 30px;
   padding-bottom: 25px;
   color: #35454a;
-  border-top: solid 25px #35454a;
+  border-top: 30px solid 
 }
 
 .project-title {
@@ -84,11 +86,6 @@ h1 {
 }
 
 /*-Home page contact form--*/
-
-.container-fluid {
-  padding: 0;
-
-}
 
 .container-contactform {
 
@@ -123,6 +120,14 @@ h1 {
   padding-bottom: 10px;
   color: #fff;
 }
+
+.button-1:hover {
+  color: #ffffff !important;
+  background: #b8b8f4;
+  border-color: #b8b8f4 !important;
+  transition: all 0.4s ease 0s;
+}
+
 
 
 
@@ -168,9 +173,7 @@ h1 {
 
 /*--Services--*/
 
-
 /*--Contact Page--*/
-
 
 .index-form {
   color: #fff;
@@ -204,247 +207,26 @@ i:hover {
   padding-left: 20px;
 }
 
-/*--Media Queries--*/
-
-@media(max-width: 768px) {
-
-  .container-contactform h1 .container-contactform form {
-    float: none;
-    text-align: center;
-    width: 100%;
-  }
-
-
-  .container-contactform button-1 {
-   body {
-  padding-top: 60px;
-  background-color: #EAEAEA;
-}
-
-
-.breadcrumb {
-  background-color: #35454a;
-}
-
-.breadcrumb a {
-  color: #fff;
-  text-decoration: none;
-}
-
-
-
-
-h1 {
-  color: #35424a;
-}
-
-
-
-
-/*--Navbar--*/
-
-.navbar {
-  background-color: #35454a;
-
-}
-
-.navbar-brand {
-  color: #a9a9a9;
-  font-size: 25px;
-}
-
-.navbar-dark .navbar-nav .nav-link {
-    color: #fff;
-}
-
-.dropdown a {
-  color: #35454a;
-}
-
-
-/*--Carousel--*/
-
-.carousel-item {
-  height: 65vh;
-  min-height: 300px;
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-.carousel-caption {
-  font-size: 25px;
-  color: #fff;
-  background: rgba(0,0,0,0.3);
-  border-radius: 10px;
-  width: 50%;
-  margin: auto;
-}
-
-.portfolio-item {
-  margin-bottom: 30px;
-}
-
-.page-title {
-  padding-top: 40px;
-  padding-bottom: 25px;
-  color: #35454a;
-}
-
-.project-title {
-  padding-top: 50px;
-  padding-bottom: 20px;
-  color: #35454a;
-}
-
-/*-Home page contact form--*/
-
-.container-fluid {
-  padding: 0;
-
-}
-
-.container-contactform {
-
-  padding: 20px;
-  color: #fff;
-  background: #35454a;
-  margin: auto;
-}
-
-.container-contactform h2 {
-  padding-bottom: 15px;
-  text-align: center;
-}
-
-.container-contactform form {
-  margin: auto;
-
-}
-
-.container-contactform input[type=email] {
-  padding: 4px;
-  height: 29px;
-  width: 350px;
-}
-
-.button-1 {
-  height: 27px;
-  background: #a9a9a9;
-  border: none;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 10px;
-  color: #fff;
-}
-
-
-
-/*---Project Cards--*/
-
-.card-title a {
-  color: #a9a9a9;
-  text-decoration: none;
-}
-
-.card-title a:hover {
-
-  color: #fff;
-  font-weight: bold;
-}
-
-
-
-/*-- About Page Styling --*/
-
-.aboutlanding {
-  padding-bottom: 50px;
-}
-
-.about-context {
-  color: #35424a;
-}
-
-.safetycard {
-  padding-top: 25px;
-  padding-bottom: 25px;
-}
-
-.clientcard {
-  padding-top: 15px;
-  padding-bottom: 50px;
-}
-
-.card-body {
-  background-color: #35424a;
-  color: #fff;
-}
-
-/*--Services--*/
-
-.card-header h4 {
-  font: #fff;
-}
-
-
-/*--Contact Page--*/
-
-
-.index-form {
-  color: #fff;
-  background-color: #35454a;
-}
-
-/*--Footer--*/
-
-footer {
-  background-color: #35424a;
-  color: #fafafa;
-  min-height: 120px;
-  margin: 0;
-  text-align: center;
-}
-
-#footer-details {
-  padding-top: 10px;
-  display: inline-block;
-}
-
-i {
-  color: #fff;
-}
-
-i:hover {
-  color: #a9a9a9;
-  transform: scale(1.5);
-}
-
-.about-footer {
-  padding-left: 20px;
-}
-
-/*--Media Queries--*/
-
-@media(max-width: 768px) {
-  
-  .container-contactform h1 .container-contactform form {
-    float: none;
-    text-align: center;
-    width: 100%;
-  }
-
-
-  .container-contactform button-1 {
-    display: inline-block;
    
-  }
-  .container-contactform form input[type="email"] {
-    width: 100%;
-    margin-bottom: 5px;
-    margin-top: 8px;
-  }
-  
+    /*--Media Queries--*/
+    @media(min-width: 768px) {
 
-}
+      .container-contactform h1 .container-contactform form {
+        float: none;
+        text-align: center;
+        width: 100%;
+      }
+
+
+      .container-contactform button-1 {
+        display: block;
+
+      }
+      .container-contactform form input[type="email"] {
+        width: 80%;
+        margin-bottom: 5px;
+        margin-top: 8px;
+      }
+
+
+    }
