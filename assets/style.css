@@ -35,6 +35,9 @@ h1 {
   font-size: 25px;
 }
 
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
 
 .navbar a:hover {
   color: #a9a9a9;
