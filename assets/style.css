@@ -1,7 +1,7 @@
 body {
   padding-top: 60px;
   background-color: #EAEAEA;
- 
+ overflow-x: hidden;
 }
 
 
@@ -74,7 +74,7 @@ h1 {
   padding-top: 30px;
   padding-bottom: 25px;
   color: #35454a;
-  border-top: solid 18px #35454a;
+  border-top: solid 25px #35454a;
 }
 
 .project-title {
@@ -429,10 +429,6 @@ i:hover {
 
 @media(max-width: 768px) {
   
-  body {
-     overflow-x: hidden;
-  }
-
   .container-contactform h1 .container-contactform form {
     float: none;
     text-align: center;
@@ -441,7 +437,7 @@ i:hover {
 
 
   .container-contactform button-1 {
-    display: block;
+    display: inline-block;
    
   }
   .container-contactform form input[type="email"] {
@@ -450,9 +446,5 @@ i:hover {
     margin-top: 8px;
   }
   
-  .carousel-item {
-    width: 100%;
-    float: none;
-  }
 
 }
