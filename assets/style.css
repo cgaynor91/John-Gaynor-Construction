@@ -39,14 +39,8 @@ h1 {
     color: #fff;
 }
 
-.navbar a:hover {
-  color: #a9a9a9;
-}
-
-
 .dropdown a {
   color: #35454a;
-
 }
 
 
@@ -76,9 +70,10 @@ h1 {
 }
 
 .page-title {
-  padding-top: 40px;
+  padding-top: 30px;
   padding-bottom: 25px;
   color: #35454a;
+  border-top: solid 18px #35454a;
 }
 
 .project-title {
@@ -171,10 +166,6 @@ h1 {
 }
 
 /*--Services--*/
-
-.card-header h4 {
-  font: #fff;
-}
 
 
 /*--Contact Page--*/
