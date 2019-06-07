@@ -33,6 +33,9 @@ I was also conscious of having too much information on the home page and wanted 
 
 The website itself has a responsive fixed top navbar displaying four visible links, the last link has a dropdown feature displaying a further five links ergo the website itself is a 9 page website. This is navigation bar is displayed on all 9 pages. 
 
+Across all pages (excluding home) I have implemented a breadcrumb that will enable the user to go back to the home page. 
+
+
 ### Home Page
 
 There is carousel displaying images of work completed by the company, this greets the user when they first visit the page.
@@ -43,19 +46,28 @@ There are 6 card features displaying the variety of work the company does. These
 
 There is a further button at the end of the page that encourages the customer to get in contact with the company, this button brings the customer to the contact page. 
 
-## Contact Page
+### Contact Page
 
 The contact page has an embeded google map showing where the company is located
 
 There is a bootstrap contact form enabling the customer to fill in their details and enquires and submit to the website. 
 
-## Footer
+### Footer
 
 The footer is fixed to the bottom of all pages and holds the scoial logo for linkedin and selecting same would bring you to the profile of the site manager of the company. 
 
 
+## Technologies Used
 
-
+- [Bootstrap](https://getbootstrap.com/) 
+   - The Bootstrap framework was used to create a responsive design and plan the overall layout of the website. 
+- [Fontawesome](https://fontawesome.com/start)
+    - Used FontAwesome to style social link in footer and carousel indicators
+- [JQuery](https://jquery.com/)
+    - This was used to work with the document object model.
+- HTML
+    
+- CSS
 
 
 
