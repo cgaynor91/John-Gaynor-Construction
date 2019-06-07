@@ -76,7 +76,7 @@ h1 {
   padding-top: 30px;
   padding-bottom: 25px;
   color: #35454a;
-  border-top: 30px solid 
+  border-top: 30px solid
 }
 
 .project-title {
@@ -106,19 +106,17 @@ h1 {
 }
 
 .container-contactform input[type=email] {
-  padding: 4px;
-  height: 29px;
-  width: 350px;
+  height: 35px;
+  width: 70%;
 }
 
 .button-1 {
-  height: 27px;
+  height: 32px;
+  width: 100px;
   background: #a9a9a9;
   border: none;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 10px;
   color: #fff;
+  margin: auto;
 }
 
 .button-1:hover {
@@ -207,26 +205,30 @@ i:hover {
   padding-left: 20px;
 }
 
-   
-    /*--Media Queries--*/
-    @media(min-width: 768px) {
 
-      .container-contactform h1 .container-contactform form {
-        float: none;
-        text-align: center;
-        width: 100%;
-      }
+/*--Media Queries--*/
 
+@media(min-width: 768px) {
 
-      .container-contactform button-1 {
-        display: block;
-
-      }
-      .container-contactform form input[type="email"] {
-        width: 80%;
-        margin-bottom: 5px;
-        margin-top: 8px;
-      }
+  .container-contactform h1 .container-contactform form {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
 
 
-    }
+  .container-contactform button-1 {
+    display: block;
+
+  }
+  .container-contactform form input[type="email"] {
+    width: 77%;
+    margin-bottom: 5px;
+    margin-top: 8px;
+  }
+  
+
+  body {
+    overflow-x: hidden;
+  }
+}
