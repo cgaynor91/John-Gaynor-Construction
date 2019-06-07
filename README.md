@@ -65,9 +65,19 @@ The footer is fixed to the bottom of all pages and holds the scoial logo for lin
     - Used FontAwesome to style social link in footer and carousel indicators
 - [JQuery](https://jquery.com/)
     - This was used to work with the document object model.
+
+- [Embedded Google Map](https://www.google.com/maps/)
+  - Using the embed option on the google maps website I embedded a link showing where the company is. 
+
+- [Popper JS](https://popper.js.org/)
+    - This was used to operate the dropwdown menu in the navbar and provide dynamic positioning and viewport detection. 
+    
 - HTML
     
 - CSS
+
+
+## Testing 
 
 
 

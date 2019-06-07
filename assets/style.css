@@ -178,6 +178,21 @@ h1 {
   background-color: #35454a;
 }
 
+.map {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden;
+}
+
+.map iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
 /*--Footer--*/
 
 footer {
@@ -226,7 +241,7 @@ i:hover {
     margin-bottom: 5px;
     margin-top: 8px;
   }
-  
+
 
   body {
     overflow-x: hidden;
