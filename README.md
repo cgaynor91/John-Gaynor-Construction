@@ -17,7 +17,6 @@ I was also conscious of having too much information on the home page and wanted 
 
 - As a customer who has no knowledge of the building world I would like to see images of what kind of work this company has previously completed. I would like to see where their company is located and also how to get in contact with them. I would want to know what kind of work they specialise in and what are their qualifications. 
 - As a large company looking to start a large project development I would like to see what previous large projects the company has worked on. It would be important to see images of large developments and also the scope of the developments. I would want to know who the company had previously worked with and where. 
-- A customer who is looking to refurbish a building would want to see if this company has experience in this. They would want to see previous refurbishments completed and information on previous refurbishments - ie work completed on protected buildings or refurbishments on commercial offices. 
 
 
 **Wireframes**
@@ -85,9 +84,23 @@ The footer is fixed to the bottom of all pages and holds the scoial logo for lin
 
 ## Testing 
 
+ - Using [Browserling](https://www.browserling.com/) I tested the website across multiple browsers to ensure responsiveness and compatibility. 
+ - Using Google Chrome developer tools I tested the websites responsiveness across various devices ie. iPhone, Android and Tablets. 
+ - The enquiry form on the home page will not let you submit unless a valid e-mail address is entered and a note will be appear to advise the client of same
+ - The contact form on the contact page also contains the required attribute for both email and phone number and this functions correctly
+ - Manually tested all the hover styling on the navbar and also the links - all operating correctly.
+ - Manually tested button on home page with internal link to contact page
+ - Checked HTML and CSS oh respective validators
+ - Manually checked fontawesome social link which brought me to the relevant page in a new browser window. 
 
+### Addressing testing from User Stories 
 
+*"As a customer who has no knowledge of the building world I would like to see images of what kind of work this company has previously completed. I would like to see where their company is located and also how to get in contact with them. I would want to know what kind of work they specialise in and what are their qualifications."*  
 
+This customer's experience has been satisfied as the first thing as a visitor to the site that they will see is images of previous work completed. They have two options of getting in contact on the home page itself, by entering their e-mail in the enquiry box directly below the carousel or if they have scrolled to the bottom of the home page there is a further button encouraging them to get in touch with the company, this button subsequently will bring them to the contact page where they will find a google map showing the exact location of the company. On the home page they are also shown various pictures of previous work completed in different fields and also on every page above the footer is the company's qulaifications. 
 
+*"As a large company looking to start a large project development I would like to see what previous large projects the company has worked on. It would be important to see images of large developments and also the scope of the developments. I would want to know who the company had previously worked with and where."*
+
+Again this customer's experience has been met as there is images of previous work greeting them immediately on gaining access to the site. Also on the home page there is images with links and a brief description of previous commerical work completed. If they clicked on either the commercial or healthcare link they would be brought to the respective portfolio and given further detail of the projects completed ie. the cost, length of time the projects took to complete and who the company worked with on said projects. 
 
 
