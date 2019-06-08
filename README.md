@@ -90,17 +90,29 @@ The footer is fixed to the bottom of all pages and holds the scoial logo for lin
  - The contact form on the contact page also contains the required attribute for both email and phone number and this functions correctly
  - Manually tested all the hover styling on the navbar and also the links - all operating correctly.
  - Manually tested button on home page with internal link to contact page
- - Checked HTML and CSS oh respective validators
+ - Checked HTML and CSS on respective validators
  - Manually checked fontawesome social link which brought me to the relevant page in a new browser window. 
+
+### Issues when Testing
+
+- I found when testing the website on smaller screen sizes such as iphone or android devices there appeared to be a small white margin to the right of the screen, sometimes creating a horizontal scroll-bar, I fixed this issue by adding `overflow-x: hidden` in my CSS. 
+- I had issues with the google maps image not resizing on smaller screens when I was checking the responsiveness and added CSS style code found on [Emded Google Maps](https://www.embedgooglemap.net/). I then had to customise this CSS to suit my own website.
+- I linked my website to family and friends to see if there was any issues and get general feedback about UX. I received 99% positive feedback, the only issue that was reported was my mother couldn't understand why the word "in" was at the bottom of every page :) 
 
 ### Addressing testing from User Stories 
 
 *"As a customer who has no knowledge of the building world I would like to see images of what kind of work this company has previously completed. I would like to see where their company is located and also how to get in contact with them. I would want to know what kind of work they specialise in and what are their qualifications."*  
 
-This customer's experience has been satisfied as the first thing as a visitor to the site that they will see is images of previous work completed. They have two options of getting in contact on the home page itself, by entering their e-mail in the enquiry box directly below the carousel or if they have scrolled to the bottom of the home page there is a further button encouraging them to get in touch with the company, this button subsequently will bring them to the contact page where they will find a google map showing the exact location of the company. On the home page they are also shown various pictures of previous work completed in different fields and also on every page above the footer is the company's qulaifications. 
+This customer's experience has been satisfied as the first thing as a visitor to the site that they will see is images of previous work completed. They have two options of getting in contact on the home page itself, by entering their e-mail in the enquiry box directly below the carousel or if they have scrolled to the bottom of the home page there is a further button encouraging them to get in touch with the company, this button subsequently will bring them to the contact page where they will find a google map showing the exact location of the company and a fully functional form where they can liaise with the company and give a description of their project/idea/query. There is also contact details on the home page and the contact page so the customer can see their operating hours and contact details. On the home page they are also shown various pictures of previous work completed in different fields and also on every page above the footer is the company's qulaifications. 
 
 *"As a large company looking to start a large project development I would like to see what previous large projects the company has worked on. It would be important to see images of large developments and also the scope of the developments. I would want to know who the company had previously worked with and where."*
 
 Again this customer's experience has been met as there is images of previous work greeting them immediately on gaining access to the site. Also on the home page there is images with links and a brief description of previous commerical work completed. If they clicked on either the commercial or healthcare link they would be brought to the respective portfolio and given further detail of the projects completed ie. the cost, length of time the projects took to complete and who the company worked with on said projects. 
 
+
+## Deployment
+
+The website is hosted using GitHub pages which were deployed directly from the master branch. The site that is deployed will automatically update itself when new commits are made to the master branch. 
+
+To run the code locally, you must clone this repository directly into an editor of your choosing and paste into your terminal `git clone https://github.com/cgaynor91/John-Gaynor-Construction.git` . If you then wish to terminate ties with this repostiory enter `git remote rm origin` into your terminal. 
 
