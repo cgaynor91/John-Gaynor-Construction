@@ -116,3 +116,28 @@ The website is hosted using GitHub pages which were deployed directly from the m
 
 To run the code locally, you must clone this repository directly into an editor of your choosing and paste into your terminal `git clone https://github.com/cgaynor91/John-Gaynor-Construction.git` . If you then wish to terminate ties with this repostiory enter `git remote rm origin` into your terminal. 
 
+## Credits
+   
+### Content
+
+- Text was taken from [Conack Construction](https://www.conack.ie/) and [MFC](https://www.mfc.ie/)
+   
+### Media
+   
+- Images were taken from [Conack Construction](https://www.conack.ie/) and [MFC](https://www.mfc.ie/)
+- Construction images taken from Google Image Search
+- Health and Safety Logos downloaded from respective safety websites. 
+- The navbar styling using the social media link was taken from Code Insititutes mini project "Rosie CV" - customised and adapted to suit the page
+- CSS Styling for google maps was taken from [Emded Google Maps](https://www.embedgooglemap.net/) and customised for the website. 
+- FavIcon was generated using [FavIcon Generator](https://www.favicongenerator.com/)
+
+## Acknowledgements
+
+I got a lot of my inspiration for my website from [Conack Construction](https://www.conack.ie/) and [MFC](https://www.mfc.ie/). 
+
+I used [this](https://www.w3schools.com/bootstrap/bootstrap_carousel.asp) tutorial to create the home page website's carousel 
+
+
+
+
+
