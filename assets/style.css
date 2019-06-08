@@ -176,11 +176,12 @@ h1 {
 .index-form {
   color: #fff;
   background-color: #35454a;
+  height: 350px;
 }
 
 .map {
   position: relative;
-  padding-bottom: 75%;
+  padding-bottom: 50%;
   height: 0;
   overflow: hidden;
 }
