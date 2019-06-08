@@ -1,6 +1,6 @@
 # John Gaynor Construction
 
-This is a fully responsive website designed for a building construction business. I designed this website in what is somewhat of a saturated market. The idea for the website is for a professional and operational look so users have confidence in the actual work of the company. 
+This is a fully responsive website designed for a building construction business. The idea for the website is for a professional and operational look so users have confidence in the actual work of the company. 
 
 Please click [here](https://john-gaynor-construction-cgaynor91.c9users.io/index.html) for a live demo of the website 
 
@@ -31,9 +31,9 @@ I was also conscious of having too much information on the home page and wanted 
 
 ## Features
 
-The website itself has a responsive fixed top navbar displaying four visible links, the last link has a dropdown feature displaying a further five links ergo the website itself is a 9 page website. This is navigation bar is displayed on all 9 pages. 
+The website itself has a responsive fixed top navbar displaying four visible links, the last link has a dropdown feature displaying a further five links ergo the website itself is a 9 page website. This navigation bar is displayed on all 9 pages. 
 
-Across all pages (excluding home) I have implemented a breadcrumb that will enable the user to go back to the home page. 
+Across all pages (excluding home) I have implemented a breadcrumb that will enable the user to go back to the home page if needed. 
 
 
 ### Home Page
@@ -71,7 +71,13 @@ The footer is fixed to the bottom of all pages and holds the scoial logo for lin
 
 - [Popper JS](https://popper.js.org/)
     - This was used to operate the dropwdown menu in the navbar and provide dynamic positioning and viewport detection. 
-    
+
+- [FavIcon](https://www.favicongenerator.com/)
+  - I used the FavIcon generator to create the page icon and compress it to its required size.
+
+- [Git](https://git-scm.com/)
+  - Use of git to commit different stages of my project
+
 - HTML
     
 - CSS
