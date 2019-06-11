@@ -2,7 +2,7 @@
 
 This is a fully responsive website designed for a building construction business. The idea for the website is for a professional and operational look so users have confidence in the actual work of the company. 
 
-Please click [here](https://john-gaynor-construction-cgaynor91.c9users.io/index.html) for a live demo of the website 
+Please click [here](https://cgaynor91.github.io/John-Gaynor-Construction/) for a live demo of the website 
 
 # UX
 
