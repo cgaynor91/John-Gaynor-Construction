@@ -66,13 +66,7 @@ The footer is fixed to the bottom of all pages and holds the scoial logo for lin
     - Used FontAwesome to style social link in footer and carousel indicators
 - [JQuery](https://jquery.com/)
     - This was used to work with the document object model.
-
-- [Embedded Google Map](https://www.google.com/maps/)
-  - Using the embed option on the google maps website I embedded a link showing where the company is. 
-
-- [Popper JS](https://popper.js.org/)
-    - This was used to operate the dropwdown menu in the navbar and provide dynamic positioning and viewport detection. 
-
+ 
 - [FavIcon](https://www.favicongenerator.com/)
   - I used the FavIcon generator to create the page icon and compress it to its required size.
 
@@ -97,7 +91,7 @@ The footer is fixed to the bottom of all pages and holds the scoial logo for lin
 
 ### Issues when Testing
 
-- I found when testing the website on smaller screen sizes such as iphone or android devices there appeared to be a small white margin to the right of the screen, sometimes creating a horizontal scroll-bar, I fixed this issue by adding `overflow-x: hidden` in my CSS. 
+- I found when testing the website on smaller screen sizes such as iphone or android devices there appeared to be a small white margin to the right of the screen, sometimes creating a horizontal scroll-bar, I fixed this issue by adding ```overflow-x: hidden``` in my CSS. 
 - I had issues with the google maps image not resizing on smaller screens when I was checking the responsiveness and added CSS style code found on [Emded Google Maps](https://www.embedgooglemap.net/). I then had to customise this CSS to suit my own website.
 - I linked my website to family and friends to see if there was any issues and get general feedback about UX. I received 99% positive feedback, the only issue that was reported was my mother couldn't understand why the word "in" was at the bottom of every page :) 
 
@@ -137,7 +131,7 @@ If you wish to clone this project from GitHub:
 - Open Git Bash in your local IDE.
 - Change the current working directory to the location where you want the cloned directory to be created.
 - Type git clone, and then paste the URL copied in Step 3.
-- git clone https://github.com/USERNAME/REPOSITORY
+- git clone https://github.com/yourusername/repository
 - Press Enter to create your local clone.
 
 ## Credits
