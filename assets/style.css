@@ -85,6 +85,11 @@ h1 {
   color: #35454a;
 }
 
+.project-card:hover {
+  transform: scale(1.01);
+  opacity: 0.9;
+}
+
 /*-Home page contact form--*/
 
 .container-contactform {
