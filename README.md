@@ -21,7 +21,7 @@ I was also conscious of having too much information on the home page and wanted 
 
 **Wireframes**
 
-![Mock Ups](assets/Wireframe/Wireframes.jpg) with basic mock-up of what I originally wanted the landing page to look like across different devices 
+[Mock Ups](assets/Wireframe/Wireframes.pdf) with basic mock-up of what I originally wanted the landing page to look like across different devices 
 
 
 ## Features
