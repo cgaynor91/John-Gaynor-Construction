@@ -108,9 +108,31 @@ Again this customer's experience has been met as there is images of previous wor
 
 ## Deployment
 
-The website is hosted using GitHub pages which were deployed directly from the master branch. The site that is deployed will automatically update itself when new commits are made to the master branch. 
+This website is hosted using GitHub pages which were deployed directly from the master branch. The webiste will automatically update when updated commits are made to the master branch. 
+The webiste was developed using Cloud9 IDE, it was then committed to git and pushed to GitHub using the terminal in Cloud9.
 
-To run the code locally, you must clone this repository directly into an editor of your choosing and paste into your terminal `git clone https://github.com/cgaynor91/John-Gaynor-Construction.git` . If you then wish to terminate ties with this repostiory enter `git remote rm origin` into your terminal. 
+To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
+
+- Log into GitHub.
+- Select the repository **cgaynor91/John-Gaynor-Construction**.
+- At the top of the page, under the "watch" icon select *settings*.
+- Scroll down to the GitHub Pages section.
+- Under Source, click on the dropdown menu and select **Master Branch**
+- The selection refreshes the page and in turn the website is deployed
+- The live link for the webiste will now appear beneath the **GitHub Pages** header. 
+
+
+### How to run this project locally
+If you wish to clone this project from GitHub:
+
+- Click on this [link](https://github.com/cgaynor91/John-Gaynor-Construction) to the GitHub repository.
+- There is a green button saying "Clone or download" - click on this.
+- Copy the clone URL for the repository.
+- Open Git Bash in your local IDE.
+- Change the current working directory to the location where you want the cloned directory to be created.
+- Type git clone, and then paste the URL copied in Step 3.
+- git clone https://github.com/USERNAME/REPOSITORY
+- Press Enter to create your local clone.
 
 ## Credits
    
