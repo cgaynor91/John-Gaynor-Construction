@@ -20,7 +20,7 @@ body {
 h1 {
   color: #35424a;
 }
-
+/* To make the container cohesive with the carousel on the index page*/
 .container-fluid {
   padding: 0;
 }
@@ -84,7 +84,7 @@ h1 {
   padding-bottom: 20px;
   color: #35454a;
 }
-
+/* Targets the images on the cards */
 .project-card:hover {
   transform: scale(1.01);
   opacity: 0.9;
@@ -93,7 +93,7 @@ h1 {
 /*-Home page contact form--*/
 
 .container-contactform {
-
+/* Not a bootstrap form - needed margin auto to make responsive*/
   padding: 20px;
   color: #fff;
   background: #35454a;
@@ -128,7 +128,7 @@ h1 {
   color: #ffffff !important;
   background: #b8b8f4;
   border-color: #b8b8f4 !important;
-  transition: all 0.4s ease 0s;
+  transition: all 0.5s ease 0s;
 }
 
 
@@ -164,17 +164,12 @@ h1 {
   padding-bottom: 25px;
 }
 
-.clientcard {
-  padding-top: 15px;
-  padding-bottom: 50px;
-}
-
 .card-body {
   background-color: #35424a;
   color: #fff;
 }
 
-/*--Services--*/
+
 
 /*--Contact Page--*/
 
@@ -192,7 +187,7 @@ h1 {
 .index-form a:hover {
   color: #fff;
 }
-
+/* Google map css needed to make map responsive*/
 .map {
   position: relative;
   padding-bottom: 50%;
@@ -231,7 +226,7 @@ i:hover {
   color: #a9a9a9;
   transform: scale(1.5);
 }
-
+/*Center the text in the footer*/
 .about-footer {
   padding-left: 20px;
 }
@@ -258,7 +253,7 @@ i:hover {
     margin-top: 8px;
   }
 
-
+/*Issue with horizontal margin on smaller devices */
   body {
     overflow-x: hidden;
   }
