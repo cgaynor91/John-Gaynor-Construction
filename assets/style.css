@@ -184,6 +184,15 @@ h1 {
   height: 350px;
 }
 
+.index-form a {
+  color: #a9a9a9;
+  text-decoration: none;
+}
+
+.index-form a:hover {
+  color: #fff;
+}
+
 .map {
   position: relative;
   padding-bottom: 50%;
@@ -215,7 +224,7 @@ footer {
 
 i {
   color: #fff;
-  margin-top: 20px;
+  margin-top: 15px;
 }
 
 i:hover {
