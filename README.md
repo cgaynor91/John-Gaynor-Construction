@@ -21,13 +21,14 @@ I was also conscious of having too much information on the home page and wanted 
 
 **Wireframes**
 
+
+I kept with my general idea of what I wanted the page to look like, having seen other construction sights have a similiar layout. However as I developed the project I wanted to add more and have the website offer more than what my original concept had. 
+
 [Mock Ups](assets/Wireframe/Wireframes.pdf) with basic mock-up of what I originally wanted the landing page to look like across different devices.
 
 Also a basic idea of what I wanted the [about](assets/Wireframe/mockupabout.pdf) page to look like. 
 
 I also had an idea of what I wanted my [contact page](assets/Wireframe/mockupcontact.pdf) to lay out like 
-
-
 
 
 ## Features
